@@ -23,7 +23,7 @@ function draw(){
         var currentNode=get_mst();
         for(var i in nodes){
             if(currentNode && nodes[i].id==currentNode.id){
-                stroke(0,0,255);
+                stroke(255,255,0);
                 nodes[i].show();
             }
             else{
